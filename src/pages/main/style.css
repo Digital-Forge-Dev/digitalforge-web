@@ -1,0 +1,19 @@
+.main-page-impl {
+    align-items: center;
+    background-color: #1c2225;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 1440px;
+    padding: 20px 10px 0px;
+    position: relative;
+  }
+
+.main-page-impl .group {
+    height: 948px;
+    left: 0;
+    position: absolute;
+    top: 61px;
+    width: 1440px;
+  }
