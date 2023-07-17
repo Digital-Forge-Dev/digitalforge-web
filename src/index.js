@@ -7,19 +7,31 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import { RootRouter, PortfolioRouter } from './RootRouter';
+import { RootRouter } from './RootRouter';
 import { FirestoreProvider } from './utils/firebase/databaseContext';
+import { PortFolio } from './pages/portfolio';
+import Main from './pages/main';
+import { About } from './pages/about';
 
 
 const router = createBrowserRouter([
   {
-    path: "/",
     element: <RootRouter />,
+    children: [
+      {
+        path: "/",
+        element: <Main />,
+      },
+      {
+        path: "portfolio",
+        element: <PortFolio />,
+      },
+      {
+        path: "about",
+        element: <About/>
+      }
+    ],
   },
-  {
-    path: '/portfolio',
-    element: <PortfolioRouter />
-  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
