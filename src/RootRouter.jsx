@@ -1,8 +1,9 @@
 
 import Main from "./pages/main";
+import { PortFolio } from "./pages/portfolio";
 import Navbar from "./sections/common/navbar";
 
-function RootRouter() {
+export const RootRouter = () => {
     return (
         <>
             <Navbar />
@@ -11,4 +12,11 @@ function RootRouter() {
     );
 }
 
-export default RootRouter
+export const PortfolioRouter = () => {
+    return (
+        <>
+            <Navbar/>
+            <PortFolio/>
+        </>
+    )
+}

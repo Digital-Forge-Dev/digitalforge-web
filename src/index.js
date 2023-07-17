@@ -7,19 +7,27 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import RootRouter from './RootRouter';
+import { RootRouter, PortfolioRouter } from './RootRouter';
+import { FirestoreProvider } from './utils/firebase/databaseContext';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <RootRouter />,
   },
+  {
+    path: '/portfolio',
+    element: <PortfolioRouter />
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <RouterProvider router={router} />
+    <FirestoreProvider>
+      <RouterProvider router={router} />
+    </FirestoreProvider>
   </React.StrictMode>
 );
 

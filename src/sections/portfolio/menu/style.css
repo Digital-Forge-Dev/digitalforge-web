@@ -1,0 +1,93 @@
+.port-folio .navbar {
+    height: 46px;
+    margin-left: -368px;
+    margin-right: -368px;
+    min-width: 1866px;
+    position: relative;
+  }
+  
+  .port-folio .button {
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%);
+    border-radius: 8px;
+    display: flex;
+    left: 572px;
+    padding: 10px 23.91px 10px 24px;
+    position: absolute;
+    top: 0;
+    width: fit-content;
+  }
+  
+  .port-folio .text-wrapper-3 {
+    color: #64e6fb;
+    font-family: "Poppins", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 26px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .port-folio .button-gamedev {
+    color: #a6a6a6;
+    font-family: "Poppins", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    height: 26px;
+    left: 667px;
+    letter-spacing: 0;
+    line-height: 26px;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    white-space: nowrap;
+  }
+  
+  .port-folio .button-internal {
+    color: #a6a6a6;
+    font-family: "Poppins", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    height: 26px;
+    left: 805px;
+    letter-spacing: 0;
+    line-height: 26px;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    white-space: nowrap;
+  }
+  
+  .port-folio .button-external {
+    color: #a6a6a6;
+    font-family: "Poppins", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    height: 26px;
+    left: 1002px;
+    letter-spacing: 0;
+    line-height: 26px;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    white-space: nowrap;
+  }
+  
+  .port-folio .button-netsos {
+    color: #a6a6a6;
+    font-family: "Poppins", Helvetica;
+    font-size: 18px;
+    font-weight: 600;
+    height: 26px;
+    left: 1201px;
+    letter-spacing: 0;
+    line-height: 26px;
+    position: absolute;
+    text-align: center;
+    top: 9px;
+    white-space: nowrap;
+  }
