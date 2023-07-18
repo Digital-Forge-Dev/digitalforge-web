@@ -1,0 +1,73 @@
+.ABOUT .div-css-vonkdt {
+    background-color: #00000033;
+    border-radius: 30px;
+    box-shadow: 0px 23px 33px #0000000f;
+    height: 520px;
+    min-width: 1120px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .ABOUT .overlap-group {
+    background-image: url(https://generation-sessions.s3.amazonaws.com/ef0ebb8c6c1396e052f5ec2841181550/img/flip-1-33d8730eaf-png.svg);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 520px;
+    position: relative;
+    width: 1120px;
+  }
+  
+  .ABOUT .div-css-fiub {
+    background-color: #000000b0;
+    height: 520px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1120px;
+  }
+  
+  .ABOUT .div-chakra-stack {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    left: 104px;
+    position: absolute;
+    top: 171px;
+    width: fit-content;
+  }
+  
+  .ABOUT .heading-visi {
+    color: #ffffff;
+    font-family: "Plus Jakarta Sans", Helvetica;
+    font-size: 60px;
+    font-weight: 800;
+    letter-spacing: 0;
+    line-height: 32px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .ABOUT .heading {
+    align-items: flex-start;
+    display: flex;
+    padding: 0px 42.12px 0.17px 41.88px;
+    position: relative;
+    width: fit-content;
+  }
+  
+  .ABOUT .menjadi-perusahaan {
+    color: #ffffff;
+    font-family: "Inter", Helvetica;
+    font-size: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+    line-height: 38.4px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+  }
